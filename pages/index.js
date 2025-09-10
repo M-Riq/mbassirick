@@ -21,7 +21,7 @@ const Home = () => {
          {/* title */}
          <motion.h1 variants={fadeIn('right', 0.5)} initial="hidden" animate="show" exit="hidden" className="h1"> Transformez les idée <br/> en {''} <span className="text-accent">Realité digital</span></motion.h1>
          {/* subtitle */}
-         <motion.p variants={fadeIn('left', 0.5)} initial="hidden" animate="show" exit="hidden" className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">Je transforme vos idée en solution réel, vous avez un problèm, je suis la solution numerique qu'il vous faut</motion.p>
+         <motion.p variants={fadeIn('left', 0.5)} initial="hidden" animate="show" exit="hidden" className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">Je transforme vos idée en solution réel, vous avez un problèm, je suis la solution numerique qu&apos;il vous faut</motion.p>
          <div className="flex justify-center xl:hidden">
              <ProjectsBtn/>
          </div>
