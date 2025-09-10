@@ -1,5 +1,12 @@
+import Image from 'next/image'
+
 const Circles = () => {
-  return <div>Circles</div>;
+  return (
+    <div className='w-[200px] xl:w-[300px] absolute -right-16 -bottom-2 mix-blend-color-dodge animate-pulse duration-90 z-10'>
+      {/* <Image src={'/circles.png'} width={260} height={200} className='w-full h-full' alt=''/> */}
+      <Image src={'/bulb.png'} width={200} height={300} className='w-full h-full'/>
+    </div>
+  );
 };
 
 export default Circles;

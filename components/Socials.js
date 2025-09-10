@@ -1,5 +1,18 @@
-const Socials = () => {
-  return <div>Socials</div>;
-};
+import Link from "next/link"
 
-export default Socials;
+import {RiYoutubeLine, RiInstagramLine, RiFacebookLine, RiBehanceLine, RiPinterestLine, RiTwitterXLine, RiWhatsappLine} from "react-icons/ri"
+
+const Socials = () => {
+  return (
+    <div className="flex items-center gap-x-5 text-xl">
+      <Link href={''} className="hover:text-accent transition-all duration-300"><RiYoutubeLine/></Link>
+      <Link href={''} className="hover:text-accent transition-all duration-300"><RiInstagramLine/></Link>
+      <Link href={''} className="hover:text-accent transition-all duration-300"><RiFacebookLine/></Link>
+      <Link href={''} className="hover:text-accent transition-all duration-300"><RiBehanceLine/></Link>
+      <Link href={''} className="hover:text-accent transition-all duration-300"><RiPinterestLine/></Link>
+      <Link href={''} className="hover:text-accent transition-all duration-300"><RiTwitterXLine/></Link>
+      <Link href={''} className="hover:text-accent transition-all duration-300"><RiWhatsappLine/></Link>
+    </div>
+  )
+}
+export default Socials
