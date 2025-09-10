@@ -39,23 +39,30 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="nextjs" />,
+          <SiFramer key="framer" />,
+          <FaWordpress key="wordpress" />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+          <FaFigma key="figma1" />,
+          <SiAdobexd key="xd1" />,
+          <SiAdobephotoshop key="ps1" />,
+        ],
       },
-     
       {
         title: 'designer graphique',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+          <FaFigma key="figma2" />,
+          <SiAdobexd key="xd2" />,
+          <SiAdobephotoshop key="ps2" />,
+        ],
       },
     ],
   },
@@ -76,19 +83,6 @@ const aboutData = [
       },
     ],
   },
-  // {
-  //   title: 'credentials',
-  //   info: [
-  //     {
-  //       title: 'HND Diploma - Université des sciences et technology, CM',
-  //       stage: '2022',
-  //     },
-  //     {
-  //       title: 'licence  - Azimut',
-  //       stage: '2023-2024',
-  //     },
-  //   ],
-  // },
 ];
 
 const About = () => {
