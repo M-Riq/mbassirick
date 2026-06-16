@@ -8,6 +8,9 @@ import Experience from '@/components/Experience';
 import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import type { Metadata } from "next";
+
+
 
 export default function Home() {
   return (
