@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const LP_PHOTO = '/LP.jpg';
 
-const Text = ['Junior Full Stack', 'Junior Creative', 'Innovative', 'Passionate'];
+const Text = ['Junior Full Stack', 'Junior Creative', 'Innovative', ' full stack'];
 
 export default function Hero() {
   const [wordIndex, setWordIndex] = useState(0);
@@ -224,7 +224,7 @@ export default function Hero() {
                 Hello, I&apos;m
               </span>
               <h1 className="text-7xl lg:text-8xl xl:text-[9rem] font-bold tracking-[-0.02em] leading-[0.88] text-white">
-                Rick Mbassi 
+                RICK
               </h1>
             </motion.div>
 
