@@ -153,7 +153,7 @@ export default function About() {
               </p>
               <p>
                 Web & Mobile Development: Building high-performance, responsive interfaces.
-                <span className="text-white font-medium">Headless CMS Expertise:</span> Seamless content management systems that don't compromise on speed.
+                <span className="text-white font-medium">Headless CMS Expertise:</span> Seamless content management systems that don&apos;t compromise on speed.
                 <span className="text-white font-medium">SEO & Technical Optimization:</span> Designing digital products that are built to rank and convert.
                 Core Tech Stack:<span className="text-white font-medium"> Next.js, TypeScript, Headless WordPress, Tailwind CSS, and API integrations.</span>
               </p>
