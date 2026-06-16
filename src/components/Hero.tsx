@@ -224,7 +224,7 @@ export default function Hero() {
                 Hello, I&apos;m
               </span>
               <h1 className="text-7xl lg:text-8xl xl:text-[9rem] font-bold tracking-[-0.02em] leading-[0.88] text-white">
-                RICK.M
+                RICK|M
               </h1>
             </motion.div>
 
