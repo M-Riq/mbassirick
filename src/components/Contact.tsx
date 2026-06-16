@@ -11,6 +11,7 @@ const contactLinks: { icon: LucideIcon; label: string; value: string; href: stri
   { icon: MessageCircle, label: 'WhatsApp', value: '+237 693932804', href: 'https://wa.me/237693932804' },
   { icon: Linkedin, label: 'LinkedIn', value: 'Rick mbassi', href: 'https://linkedin.com' },
   { icon: Github, label: 'GitHub', value: 'M-Riq', href: 'https://www.linkedin.com/in/rick-mbassi-00b650411/' },
+  { icon: Github, label: 'GitHub', value: 'M-Riq', href: 'https://www.linkedin.com/in/rick-mbassi-00b650411/' },
 ];
 
 function ContactLink({ icon: Icon, label, value, href, delay }: { icon: LucideIcon; label: string; value: string; href: string; delay: number }) {

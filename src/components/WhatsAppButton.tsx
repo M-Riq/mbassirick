@@ -2,12 +2,12 @@
 
 import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
+import {FaWhatsapp} from "react-icons/fa6";
 
 export default function WhatsAppButton() {
   return (
     <motion.a
-      href="https://wa.me/"
-      target="_blank"
+      href="https://wa.me/237693932804"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
       className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-black/50"
@@ -19,7 +19,7 @@ export default function WhatsAppButton() {
     >
       {/* Pulse ring */}
       <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-25" />
-      <MessageCircle size={24} className="text-white relative z-10" fill="white" strokeWidth={0} />
+      <FaWhatsapp size={24} className="text-white relative z-10" fill="white" strokeWidth={0} />
     </motion.a>
   );
 }
